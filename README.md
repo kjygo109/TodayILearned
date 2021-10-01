@@ -1,6 +1,6 @@
 # TIL - TodayILearned
 
-## Java
+## Java(https://github.com/kjygo109/TodayILearned/blob/main/Java/Java.md)
 ### 2021.10.01
  - Java의 정석 Chapter 02 정독 
 
