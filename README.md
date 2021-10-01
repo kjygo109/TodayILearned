@@ -1,2 +1,11 @@
-# TodayILearned
-### 기초공부 및 알고리즘 
+# TIL - TodayILearned
+
+## Java
+### 2021.10.01
+ - Java의 정석 Chapter 02 정독 
+
+## Algorithm
+### 2021.10.01
+ - 프로그래머스 Level1 완료
+
+## Spring 
