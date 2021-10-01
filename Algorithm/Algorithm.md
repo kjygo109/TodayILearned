@@ -1,2 +1,45 @@
 # 2021.10.01
-- 프로그래머스 1레벨 완료
+
+ [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)
+ ```java
+ class Solution {
+    public int[] solution(int[] lottos, int[] win_nums) {
+        int[] answer = new int[2];
+        int bestRank = 0;
+        int lowestRank = 0;
+        int count = 0;
+        int rank = 7;
+        int zeroCount = 0; 
+        
+        for(int i = 0; i < 6; i++ ){
+            if(lottos[i]!=0){
+                 for(int j = 0; j < 6; j++){
+                    if(lottos[i] == win_nums[j]){
+                        count++;
+                    }
+                }
+            }else{
+                zeroCount++;
+            }
+        }
+        
+        if(count==0 && zeroCount==0){
+            rank=6;
+        }
+        
+        bestRank = rank-zeroCount-count; 
+        if(zeroCount==6){
+            lowestRank = rank-count-1;
+        }else{
+            lowestRank = rank-count;
+        }
+        
+        
+        
+        answer[0] = bestRank;
+        answer[1] = lowestRank;
+        
+       return answer;
+    }
+}
+- ```
