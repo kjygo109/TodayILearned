@@ -6,3 +6,5 @@
 ## [Spring](https://github.com/kjygo109/TodayILearned/blob/main/Spring/TIL)
 ## [Network]
 ## [Operation System] 
+## [Data Base]
+## [Design Pattern]
